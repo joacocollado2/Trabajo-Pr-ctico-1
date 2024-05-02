@@ -10,8 +10,8 @@ ban = True
 
 if len(cp) > 9 or len(cp) < 4:
     ban = False
-if ban == False:
-    print("Otros Países")
+    if ban == False:
+        print("Otros Países")
 
 else:
     if cp[0] != reales and cp[7] != reales and cp[6] != reales and cp[5] != reales:
